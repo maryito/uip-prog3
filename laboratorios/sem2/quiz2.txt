@@ -1,0 +1,7 @@
+Aprediendo python clase 3 
+
+Modo interativo: con este modo podemos escribir y ejecutar nuestras sentencias lineas y nos das una respuesta imediata. es muy util para probar prototipos
+
+
+Modo Normal: Escribimos nuestro codigo en un archivo .py y luego es ejecutado linea por linea desde el interpete de consola de python
+			 es modo de hacerlo desde un entorno de desarrollo como eclipse.
