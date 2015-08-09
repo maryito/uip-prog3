@@ -21,8 +21,7 @@ def menu(principal,*opc):
             print("Opcion incorrecta ")
             validacion=False
     return eleccion
-'''
+
 #Ejemplo
 men=("uno","dos","tres","cuarto","cinco")
 print("su eleccion fue: "+str(menu("principal",*men)))
-'''
