@@ -1,0 +1,42 @@
+<Traductor>:
+	
+	esp: esp
+	ing: ing
+	impresion_esp: ""
+	impresion_ing:""
+	Screen:		
+		Label:
+			size_hint: (None, None)
+			pos_hint:{'center_x': .5,'center_y':.90}
+			text: 'PARCIAL #2 \n Traductor'
+			font_size: 50
+		Label:	
+			font_size: 30	
+			text: 'ESPAÑOL: '
+			size_hint: (.30, None)
+			pos_hint:{'right_top': .10,'center_y':.70}
+		TextInput:
+			id: esp
+			font_size: 30
+			text: ''+root.impresion_esp
+			size_hint: (.70, None)
+			pos_hint:{'center_x': .60,'center_y':.70}
+		Label:	
+			font_size: 30	
+			text: 'INGLES:  '
+			size_hint: (.30, None)
+			pos_hint:{'right_top': .10,'center_y':.50}
+		TextInput:
+			id: ing
+			font_size: 30
+			text: ""+root.impresion_ing
+			size_hint: (.70, None)
+			pos_hint:{'center_x': .6,'center_y':.50}
+		Button:
+			text: '<-TRADUCIR->'
+			size_hint: (.4, None)
+			pos_hint:{'center_x': .5,'center_y':.3}
+			on_press:
+				root.mostrar()
+
+
